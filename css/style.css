@@ -1,0 +1,54 @@
+html {
+    background-image: url("../img/background_01.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: "Dogica";
+    color: white;
+
+}
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-top: 200px;
+    margin-left: 600px;
+}
+
+h1 {
+
+    font-size: 36px;
+    font-family: "Dogica Pixel";
+    font-weight: lighter;
+    width: 450px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.latitude, .longitude {
+    font-size: 10px;
+    font-weight: lighter;
+
+}
+
+.blocInfo {
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+
+#map {
+
+    height: 450px;
+    width: 450px;
+}
+
+#map {
+    background-color: #0a0a0a;
+}
+
+
+
